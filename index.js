@@ -3,11 +3,11 @@ function happyHolidays() {
   return "Happy holidays!"
 }
 
-function happyHolidaysTo(name) {
+function happyHolidaysTo(name: String) {
   return "Happy holidays, ${name}!"
 }
 
-function happyHolidayTo(holiday, name) {
+function happyHolidayTo(holiday: String, name) {
   return "Happy ${holiday}, ${name}!"
 }
 
